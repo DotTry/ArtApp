@@ -2,32 +2,31 @@ Public Art App
 ==========
 Mobile App to guide people through the public art collection at the campus of the University of Houston.
 
-Access It [Here](http://housuggest.org/ArtApp/#/tour/intro)
+# Access It [Here](http://housuggest.org/ArtApp/#/tour/intro)
 
-[Google Play Store](https://play.google.com/store/apps/details?id=dash.summerofapps.artapp&hl=en)
+# Find on [Google Play Store](https://play.google.com/store/apps/details?id=dash.summerofapps.artapp&hl=en)
 
-[Recognition Article by UH](http://www.uh.edu/news-events/stories/2015/November/1124ArtApp.php)
+# [Recognition Article by UH](http://www.uh.edu/news-events/stories/2015/November/1124ArtApp.php)
 
 The code is using [Ionic Framework](http://ionicframework.com/) and [Wikitude SDK](http://www.wikitude.com/products/wikitude-sdk/) for Augmented Reality (AR) features.
 
-##Development Prerequisites:
+## Development Prerequisites:
 
 bower `npm install -g bower`
 
 
-
-##Getting started for Development:
+## Getting started for Development:
 
 1. Run `npm install` Reads package.json and installs node packges into node_modules.
 
 2. Run `bower install`. Reads bower.json and installs local dependencies into the folder `www/lib`
 
-###Run in browser or Phonegap Developer App
+### Run in browser or Phonegap Developer App
  
 7. Run `ionic serve`.
 This uses `ionic.xml` and will serve as local node server. Live updates when you make changes to the code. This works with Phonegap Developer App. Wikitude will NOT function
 
-###Running on a iOS/Android Device:
+### Running on a iOS/Android Device:
 3. Set environment variable `ANDROID_BUILD` to `ant`.
 
 4. Run `cordova platform add android@3.7.1` or `cordova platform add ios@3.8.0` Plugins are automatically installed via script in `hooks/before_platform_add`
