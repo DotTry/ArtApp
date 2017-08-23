@@ -2,11 +2,11 @@ Public Art App
 ==========
 Mobile App to guide people through the public art collection at the campus of the University of Houston.
 
-# Access It [Here](http://housuggest.org/ArtApp/#/tour/intro)
+## Access Through Browser [Here](http://housuggest.org/ArtApp/#/tour/intro)
 
-# Find on [Google Play Store](https://play.google.com/store/apps/details?id=dash.summerofapps.artapp&hl=en)
+## Find on [Google Play Store](https://play.google.com/store/apps/details?id=dash.summerofapps.artapp&hl=en)
 
-# [Recognition Article by UH](http://www.uh.edu/news-events/stories/2015/November/1124ArtApp.php)
+## [Recognition Article by UH](http://www.uh.edu/news-events/stories/2015/November/1124ArtApp.php)
 
 The code is using [Ionic Framework](http://ionicframework.com/) and [Wikitude SDK](http://www.wikitude.com/products/wikitude-sdk/) for Augmented Reality (AR) features.
 
